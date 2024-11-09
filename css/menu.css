@@ -1,0 +1,26 @@
+/* Include the base styles */
+@import url('styles.css');
+
+
+.category-section {
+    padding: 2rem 0;
+}
+
+/* Adjustments for pizza item cards */
+.pizza-item {
+    border: 2px solid #c0392b;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.pizza-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for buttons on menu items */
+button {
+    background-color: #e74c3c;
+    font-size: 1.1rem;
+}
+button:hover {
+    background-color: #c0392b;
+}
